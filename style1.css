@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    background-color: rgb(246, 194, 96);
+}
+.container{
+    width: 70%;
+    height: 85%;
+    border: 1px solid black;
+    border-radius: 60px;
+    margin: 50px auto;
+    background-color:white;
+    color: black;
+}
+header{
+    margin-top: 40px;
+    
+}
+.navbar {
+  width: 100%;
+    display: flex;
+    justify-content: space-evenly;   
+   
+
+}
+.items {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.hoster{
+    margin-left: 30px;
+    display: flex;
+    gap: 12px;
+    
+    
+}
+.hoster-btn{
+    height: 30px;
+    width: 100px;
+    border-radius: 25px;
+    background: linear-gradient(to right,  orange,pink);
+    color: white;  
+  padding: 0 16px;
+  border: none;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #444;
+  margin-right: 10px;
+}
+.card {
+   
+   
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    position: relative;
+    
+    /* margin: 40px 40px; */
+  }
+
+  .content {
+    max-width: 50%;
+    
+  }
+
+  .content h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .content p {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 20px;
+  }
+
+  .input-group {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .input-group input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+    flex: 1;
+  }
+
+  .input-group button {
+    padding: 10px 20px;
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+  }
+
+  .no-spam {
+    font-size: 12px;
+    color: #555;
+  }
+
+  nav .cta {
+    background: #3f51b5;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+  }
+  .image-wrapper {
+    max-width: 40%;
+   
+  
+  }
+
+  .image-wrapper img {
+    max-width: 350px;
+    border-radius: 50%;
+    clip-path: ellipse(50% 60% at 50% 50%);
+    position: absolute;
+    top: 25px;
+    right: -50px;
+  }
+  .footer {
+    display: flex;
+    width: auto;
+    justify-content: space-evenly;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  .social{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 130px;   
+  }
+.rightf{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 130px; 
+  position: absolute;
+  right: -410px;  
+}
